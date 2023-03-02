@@ -1,0 +1,31 @@
+POST {{LOGIN}}
+Content-Type: application/json
+
+{
+  "correo": "{{USER}}",
+  "password": "{{PASS}}"
+}
+
+# save 
+POST {{URL}}
+Content-Type: application/json
+
+{
+    "nombre": "Auron",
+    "precio": 1234,
+    "descripcion": "123456",
+    "categoria": "63ef0182fa9f9744ba75b815"
+}
+
+GET {{URL}}/63ff734d98327ba4e62db2e8"
+GET {{URL}}
+
+
+
+POST http://localhost:8082/api/auth/login
+Content-Type: application/json
+
+{
+    "correo" : "{{USER}}",
+    "password" : "{{timestamp}}",
+}
